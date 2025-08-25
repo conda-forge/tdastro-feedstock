@@ -34,9 +34,7 @@ requirements:
     - numpy >2.0
     - pandas
     - pooch
-    - pzflow
     - scipy
-    - sncosmo
 
 test:
   imports:
