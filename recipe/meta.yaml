@@ -1,5 +1,5 @@
 {% set name = "tdastro" %}
-{% set version = "0.0.5" %}
+{% set version = "0.0.6" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tdastro-{{ version }}.tar.gz
-  sha256: 9299aa3575b81c17a20b04ba3518c789db2cda564a3375ffa0e8ff4c9e32af8a
+  sha256: 574d0156174c1f013bfde37d327314abf249535d558e98568fb3d2c47b3cfc50
 
 build:
   noarch: python
@@ -34,9 +34,7 @@ requirements:
     - numpy >2.0
     - pandas
     - pooch
-    - pzflow
     - scipy
-    - sncosmo
 
 test:
   imports:
