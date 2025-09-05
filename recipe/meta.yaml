@@ -30,6 +30,7 @@ requirements:
     - extinction >=0.4.7
     - jax
     - matplotlib-base
+    - mocpy
     - nested-pandas
     - numpy >2.0
     - pandas
