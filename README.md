@@ -153,5 +153,6 @@ Feedstock Maintainers
 
 * [@hombit](https://github.com/hombit/)
 * [@jeremykubica](https://github.com/jeremykubica/)
+* [@mi-dai](https://github.com/mi-dai/)
 * [@olivialynn](https://github.com/olivialynn/)
 
