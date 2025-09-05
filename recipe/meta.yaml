@@ -1,5 +1,5 @@
 {% set name = "tdastro" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tdastro-{{ version }}.tar.gz
-  sha256: 574d0156174c1f013bfde37d327314abf249535d558e98568fb3d2c47b3cfc50
+  sha256: abbc1cb043821150201d682a58e8d39a1923a5591103ca20c6b2e45f054bd6d3
 
 build:
   noarch: python
@@ -30,6 +30,7 @@ requirements:
     - extinction >=0.4.7
     - jax
     - matplotlib-base
+    - mocpy
     - nested-pandas
     - numpy >2.0
     - pandas
